@@ -6,7 +6,7 @@
 
 `lemon` compiled with afl-clang-fast.  `AFL_HARDEN=1` was defined in environment.
 
-Example crashes:
+Example crashes verified against (https://www.sqlite.org/src/tarball/sqlite.tar.gz) taken on 2017-05-31:
 
 ```
 ==19797== Memcheck, a memory error detector
